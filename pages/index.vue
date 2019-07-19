@@ -18,57 +18,80 @@
     <header>
       <a href="#" class="site-logo" aria-label="homepage">Damosoni</a>
 
-      <nav class="main-nav">
+      <nav class="ml-5 main-nav hide-mb">
         <ul class="nav__list">
           <li class="nav__list-item">
-            <a href="#" class="nav__link">Inicio</a>
+            <a href="/" class="nav__link">Inicio</a>
           </li>
           <li class="nav__list-item">
-            <a href="#" class="nav__link">Servicios</a>
+            <a href="#services" class="nav__link">Servicios</a>
           </li>
           <li class="nav__list-item">
-            <a href="#" class="nav__link">Aplicaciones</a>
+            <a href="#apps" class="nav__link">Aplicaciones</a>
           </li>
           <li class="nav__list-item">
-            <a href="#" class="nav__link">Contacto</a>
+            <a href="#form" class="nav__link">Contacto</a>
+          </li>
+        </ul>
+        
+      </nav>
+      <nav class="ml-auto hide-mb">
+        <ul class="list-unstyled mb-0">
+          <li class="nav__list-item">
+            <span class="nav__link pupper"> <i class="fas fa-envelope"></i> contacto@damosoni.com</span>
+          </li>
+          <li class="nav__list-item">
+            <span class="nav__link pupper"><i class="fas fa-phone fa-flip-horizontal"></i> 55 5502 3555</span>
           </li>
         </ul>
       </nav>
-      <nav class="account">
+      <!-- <nav class="account">
         <ul class="nav__list">
           <li class="nav__list-item">
-            <a class="nav__link nav__link--btn" href="#">
+            <a class="nav__link" href="#">
               <i class="fa fa-envelope fa-flip-horizontal fa-fw"></i>
-              contacto
+              contacto@damosoni.com
             </a>
           </li>
           <li class="nav__list-item">
-            <a class="nav__link nav__link--btn nav__link--btn--highlight" href="#">
+            <a class="nav__link nav__link--btn--highlight" href="#">
               <i class="fab fa-whatsapp"></i>
-              55 6030 1247
+              55 5502 3555
             </a>
           </li>
         </ul>
+      </nav> -->
+      <nav class="mobiles">
+        <a class="d-block nav__link"  href="https://wa.me/+525560301247?text=Hola Damosoni!"> <i class="fab fa-whatsapp"></i> Contacto</a>
+
       </nav>
     </header>
 
     <article>
       <section class="home-intro">
         <h1 class="main-title">Damosoni Comunicaciones</h1>
-        <h2 class="text-lighter">Descubre lo que M2M &amp; IoT hace por ti</h2>
+        <h2 class="text-lighter subtitle-mb">Descubre lo que M2M &amp; IoT hacen por ti</h2>
       </section>
 
       <div class="home-about">
-        <div class="flex footer-grid">
+        <div class="flex footer-grid flex-column-inverse-mb">
           <div>
             <h2>Somos Damosoni</h2>
             <p>Nuestra calidad de servicio, alta disponibilidad y bajos costos nos hacen únicos.</p>
             <p>Disfruta de nuestra plataforma de administración en línea, sin costo adicional.</p>
-            <strong>Todo esto y más disponible 24/7 desde tu computadora o tu celular.</strong>
+            <strong>Todo esto y más, disponible 24/7 desde tu computadora o tu celular.</strong>
+            <img class="mb-only w-100" src="../assets/logo-damosoni_transparentepng.png" alt="">
           </div>
-          <div class="logo-right">logo</div>
+          <div class="logo-right hide-mb">
+            <img class="w-100" src="../assets/logo-damosoni_transparentepng.png" alt="">
+          </div>
         </div>
-        <flickity ref="flickity" :options="flickityOptions" class="slider text-center main-carousel">
+
+        <flickity
+          ref="flickity"
+          :options="flickityOptions"
+          class="slider text-center main-carousel"
+        >
           <div class="carousel-cell">
             <i class="fas fa-hands-helping fa-4x"></i>
             <h3 class="d-block my-2">Respaldo</h3>Nuestra experiencia, estructura de procesos y calidad de servicio les brinda tranquilidad y
@@ -77,68 +100,72 @@
           <div class="carousel-cell">
             <i class="fas fa-globe-americas fa-4x"></i>
             <h3 class="d-block my-2">Presentes en todo el mundo.</h3>DAMOSONI COMUNICACIONES tiene socios de negocio en más de 180 países. Ofrece todo
-            lo necesario para las personas en movimiento, negocios ocasionales o frecuentes y para empresas consolidadas
+            lo necesario para las personas en movimiento, negocios ocasionales o frecuentes y empresas consolidadas
             en determinada región.
           </div>
           <div class="carousel-cell">
             <i class="fas fa-project-diagram fa-4x"></i>
-            <h3 class="d-block my-2">Infraestructura.</h3>Nuestros servicios están puestos a disposición tanto de usuarios finales como de compañías
-            que deseen extender su portafolios con servicios únicos.
+            <h3 class="d-block my-2">Infraestructura.</h3>Puesta a disposición tanto de usuarios finales como de compañías que deseen extender su soluciones tecnológicas.
           </div>
         </flickity>
-        <div class="columns">
-          <div class="col item-grid fade-in">
-            <h3>Pruébanos sin costo</h3>
-            <p>Obtén tu SIM gratis en un solo click.</p>
-            <a href class="nav__link nav__link--btn nav__link--btn--highlight ml-0">Quiero mi SIM</a>
-          </div>
-          <div class="col item-grid fade-in">
-            <h3>Control de tus dispositivos</h3>
-            <p>
-              Activa, desactiva y modifica límites de
-              consumo.
-            </p>
-          </div>
-          <div class="col item-grid fade-in">
-            <h3>Necesitas SIM adicionales?</h3>
-            <p>Obtén una SIM nueva o agrega adicionales a tu plataforma.</p>
-          </div>
-        </div>
+        <div id="services"></div>
+
+
       </div>
 
       <div class="home-more-stuff">
         <div class="gray-bg">
-          <div class="more-stuff-grid">
-            <object data="../assets/location.svg" class="slide-in from-left" width="200"></object>
-            <p class="slide-in from-right">
-              <strong>DAMOSONI COMUNICACIONES</strong> es una compañía global e independiente, de telecomunicaciones y
-              tecnologías móviles en
-              México.
-              <br />Debido a nuestros 20 años de experiencia acumulada, estamos en posición de ofrecer servicios de comunicación
-              autosuficientes en todo el mundo.
-            </p>
-          </div>
-          <div class="more-stuff-grid">
-            <p class="slide-in from-left">
-              Los servicios de conectividad M2M & IoT están diseñados para resolver necesidades de conexión entre
-              maquinas,
-              con acuerdos y términos sencillos y precios sin cargos ocultos. Planes de datos personalizados para uso en
-              México y con la posibilidad de obtener itinerancia en todo el mundo.
-            </p>
-            <object data="../assets/sim.svg" class="slide-in from-right" width="200"></object>
-          </div>
-          <div class="more-stuff-grid">
-            <img src="../assets/signal.svg" class="slide-in from-left" width="200" />
-            <p class="slide-in from-right">
-              La visión del M2M y su componente tecnológico es aplicable sobre una gran variedad de escenarios, en los que
-              la información emitida y recibida desde las máquinas, habilita su integración en los procesos empresariales.
-            </p>
+          <div class="text-wrapper">
+
+            <div class="grid-features container">
+              <div class="image-grid slide-in from-left">
+                <img src="../assets/location.svg" class="img-flex slide-in from-left" width="200" />
+              </div>
+              <div class="grid-features_text">
+                <p class="slide-in from-right">
+                  <strong>DAMOSONI COMUNICACIONES</strong> es una compañía global e independiente, de telecomunicaciones y
+                  tecnologías móviles en
+                  México.
+                  <br />Debido a nuestros 20 años de experiencia acumulada, estamos en posición de ofrecer servicios de comunicación
+                  autosuficientes en todo el mundo.
+                </p>
+              </div>
+
+            </div>
+
+            <div class="grid-features container">
+              <div class="grid-features_text">
+                <p class="slide-in from-right">
+                  Los servicios de conectividad M2M están diseñados para resolver necesidades de conexión entre
+                  maquinas,
+                  con acuerdos y términos sencillos y precios sin cargos ocultos. Planes de datos personalizados para uso en
+                  México y con la posibilidad de obtener itinerancia en todo el mundo.
+                </p>
+              </div>
+              <div class="image-grid slide-in from-left">
+                <img src="../assets/signal.svg" class="img-flex slide-in from-left" width="200" />
+              </div>
+            </div>
+
+            <div class="grid-features container">
+              <div class="image-grid slide-in from-left">
+                <img src="../assets/sim.svg" class="img-flex slide-in from-left hide-mb" width="200" />
+              </div>
+              <div class="grid-features_text">
+                <p class="slide-in from-right">
+                  La visión del Internet de las Cosas (IoT) y su componente tecnológico es aplicable sobre una gran variedad de escenarios, en los que
+                  la información emitida y recibida desde las máquinas, habilita su integración en los procesos empresariales.
+                </p>
+              </div>
+          <div id="apps"></div> 
+
+            </div>
           </div>
         </div>
-        <div class="home-about">
+        <div class="home-about" >
           <div class="mb-5">
             <h2 class="squad-goals">
-              El objetivo final de los servicios y soluciones M2M que ofrece DAMOSONI
+              El objetivo final de los servicios y soluciones que ofrece DAMOSONI
               COMUNICACIONES,
               es identificar, implementar y mejorar constantemente los procesos aplicables.
             </h2>
@@ -146,8 +173,7 @@
           <div class="columns">
             <div class="col fade-in item-grid">
               <h3>Conectividad con alta disponibilidad.</h3>
-              <p>Obtén tu SIM gratis en un solo click.</p>
-              <a href class="nav__link nav__link--btn nav__link--btn--highlight ml-0">Quiero mi SIM</a>
+              <p>Háblanos de tu solución.</p>
             </div>
             <div class="col fade-in item-grid">
               <h3>Integración con dispositivos</h3>
@@ -167,14 +193,8 @@
 
           <div class="columns">
             <div class="col fade-in item-grid">
-              <h3>Gestión de Flotas</h3>
-              <p>
-                Realizar un seguimiento de sus vehículos en tiempo real y aumentar la productividad. No solo se trata de
-                la geolocalización de los vehículos, sino que además es posible conocer y
-                monitorizar
-                el estado del vehículo o de su carga en base a la agregación de sensores que midan presión, temperatura,
-                impactos, integridad (telemetría),etc.
-              </p>
+              <h3>Autogestión de Flotas</h3>
+              <p>Es posible conocer y monitorizar el estado del vehículo o de su carga con base en Telemetría.</p>
             </div>
 
             <div class="col fade-in item-grid">
@@ -185,7 +205,7 @@
               </p>
             </div>
             <div class="col fade-in item-grid">
-              <h3>Terminal Punto de Venta / Vending Machines</h3>
+              <h3>Vending Machines / TPV</h3>
               <p>
                 Controla y visualiza la actividad en tiempo real. Permite gestionar y optimizar la reposición de mercancía
                 con base al consumo. Además, permite
@@ -194,102 +214,77 @@
             </div>
           </div>
         </div>
-        <div class="admin-platform">
-          <div class="admin-platform_left">
-            <h3>Ahora nuestra plataforma de administración hace que la gestión de tus SIMs y dispositivos sea más fácil</h3>
-          </div>
-          <div class="admin-platform_right">
-            <ul class="list-unstyled">
-              <li>Acceso web y móvil.</li>
-              <li>Asignación de usuarios con distintos niveles de acceso.</li>
-              <li>Activar, suspender, cambiar o cancelar SIMs.</li>
-              <li>Comunicación de manera remota con cualquier dispositivo IoT.</li>
-              <li>Generar alarmas (consumo, cambio de IMEI, cambio de plan).</li>
-              <li>Generar reportes (prefacturación, consumo en tiempo real o históricos).</li>
-              <li>Control de ubicación.</li>
-            </ul>
+        <div class="admin-platform text-center">
+          <div class="container fade-in">
+            <h2>Un precio, una solución y todo incluido.</h2>
+            <h2>Obtén el mejor equipo, al mejor precio.</h2>
+            <h2>Información segura y accesible, siempre.</h2>
           </div>
         </div>
         <div class="home-about">
-          <div class="squad-goals fade-in mb-5">
-            <h2>
-              Un precio, una solución,
-              <span>todo incluido.</span>
-            </h2>
-            <p>Entre otras soluciones de IOT para facilitar tu futuro encontrarás:</p>
-          </div>
-          <div class="columns">
-            <div class="col fade-in from-left">
-              <div class="appliance">
-                <h3>Lectura de contadores</h3>
-                <p>
-                  Este tipo de sistemas permite el ahorro de costos importantes a las empresas suministradoras de
-                  servicios.
-                  Reducir gastos de desplazamiento de personal, demanda energética en tiempo real y con base en ella,
-                  dimensionar necesidades de distribución.
-                </p>
-              </div>
-              <div class="appliance">
-                <h3>Medicina</h3>
-                <p>
-                  Muchos enfermos pueden desarrollar una vida casi normal y enviar a su médico de forma regular y
-                  automática
-                  los datos medidos en su propio domicilio evitando que tengan que desplazarse al hospital. En base a la
-                  medición y análisis de estos datos se pueden generar alarmas y planificar citas para el seguimiento y
-                  evolución del paciente.
-                </p>
-              </div>
-              <div class="appliance">
-                <h3>Control de Acceso</h3>
-                <p>
-                  Alarmas y envío de datos hacia sistemas de control, con el fin de vigilar el acceso a domicilios y
-                  empresas. En este tipo de entorno, el propio canal de comunicaciones sobre el que los sensores envían la
-                  información es monitorizado y tratado como un elemento clave en la seguridad.
-                </p>
-              </div>
+          <div class="bg-white p-5 rounded shadow-sm">
+            <div class="squad-goals fade-in mb-5">
+              <h2>
+                Un precio, una solución,
+                <span>todo incluido.</span>
+              </h2>
+              <p>Entre otras soluciones de IOT para facilitar tu futuro encontrarás:</p>
             </div>
-            <div class="col fade-in from-right">
-              <div class="appliance">
-                <h3>Automoción</h3>
-                <p>
-                  Alarmas y envío de datos hacia sistemas de control, con el fin de vigilar el acceso a domicilios y
-                  empresas. En este tipo de entorno, el propio canal de comunicaciones sobre el que los sensores envían la
-                  información es monitorizado y tratado como un elemento clave en la seguridad.
-                </p>
+            <div class="columns">
+              <div class="col fade-in from-left">
+                <div class="appliance">
+                  <h3>Control de Acceso</h3>
+                  <p>
+                    Alarmas y envío de datos hacia sistemas de control, con el fin de vigilar el acceso a domicilios y
+                    empresas. En este tipo de entorno, el propio canal de comunicaciones sobre el que los sensores envían la
+                    información es monitorizado y tratado como un elemento clave en la seguridad.
+                  </p>
+                </div>
+
+                <div class="appliance">
+                  <h3>Medicina</h3>
+                  <p>
+                    Muchos enfermos pueden desarrollar una vida casi normal y enviar a su médico de forma regular y
+                    automática
+                    los datos medidos en su propio domicilio evitando que tengan que desplazarse al hospital. En base a la
+                    medición y análisis de estos datos se pueden generar alarmas y planificar citas para el seguimiento y
+                    evolución del paciente.
+                  </p>
+                </div>
               </div>
-              <div class="appliance">
-                <h3>Control y supervisión del tráfico</h3>
-                <p>
-                  Paneles informativos, semáforos, contadores de aforo de
-                  Vehículos, sensores meteorológicos, etc.
-                </p>
-              </div>
-              <div class="appliance">
-                <h3>Medio ambiente</h3>
-                <p>Estaciones meteorológicas, niveles de agua en pantanos, energía solar y eólica.</p>
+              <div class="col fade-in from-right">
+                <div class="appliance">
+                  <h3>Control y supervisión del tráfico</h3>
+                  <p>
+                    Paneles informativos, semáforos, contadores de aforo de
+                    Vehículos, sensores meteorológicos, etc.
+                  </p>
+                </div>
+                <div class="appliance">
+                  <h3>Medio ambiente</h3>
+                  <p>Estaciones meteorológicas, niveles de agua en pantanos, energía solar y eólica.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- Hardware section -->
         <div class="last-CTA text-center">
-          <div class="mb-4">
-            <h2>Obtén el mejor equipo al mejor precio</h2>
-            <p>Solución integral: Ponemos a su disposición nuestras alianzas con proveedores de hardware y software.</p>
-          </div>
-          <h4>Información segura y accesible, siempre.</h4>
-          <p>
-            <span class="brand-text">DAMISONI COMUNICACIONES</span> le permite enfocarse a sus clientes.
-            <br />Despreocúpese
+          <h3>
+            <span class="brand-text">DAMOSONI COMUNICACIONES</span> le permite enfocarse a sus clientes.
+          </h3>
+          <h4>
+            Despreocúpese
             de la conectividad y administración
             de sus dispositivos.
-          </p>
+          </h4>
+          <div id="form"></div> 
         </div>
         <div class="home-about text-center">
           <!--Section: Contact v.2-->
           <section class="mb-4 col footer-grid">
             <!--Section heading-->
-            <h2 class="h1-responsive font-weight-bold text-center my-4">Tienes dudas adicionales?</h2>
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Regístrate</h2>
             <!--Section description-->
             <p class="text-center w-responsive mx-auto mb-5">
               Escríbenos un correo y nos pondremos en contacto contigo a la
@@ -364,6 +359,7 @@
 
               <!--Grid column-->
               <div class="col-md-3 text-center">
+                <h2 class="my-4">Contacto:</h2>
                 <ul class="list-unstyled mb-0">
                   <li>
                     <i class="fas fa-map-marker-alt fa-2x"></i>
@@ -372,7 +368,7 @@
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 55 60 30 12 47</p>
+                    <p>+ 55 5502 3555</p>
                   </li>
 
                   <li>
@@ -397,7 +393,7 @@ import AppLogo from "~/components/AppLogo.vue";
 
 export default {
   components: {
-    AppLogo,
+    AppLogo
     // Flickity
   },
   mounted() {
@@ -458,16 +454,16 @@ export default {
   data() {
     return {
       flickityOptions: {
-      initialIndex: 3,
-      prevNextButtons: false,
-      pageDots: false,
-      wrapAround: true
- 
-      // any options from Flickity can be used
+        initialIndex: 3,
+        prevNextButtons: true,
+        pageDots: false,
+        wrapAround: true,
+        autoplay:true
+
+        // any options from Flickity can be used
       }
-    }
+    };
   }
-    
 };
 </script>
 
@@ -478,6 +474,10 @@ body {
   overflow-x: hidden;
   /* color: #0c2c4b; */
   background: #f1f1f1;
+}
+
+.mb-only {
+  display: none;
 }
 
 .site-logo {
@@ -555,12 +555,17 @@ header {
   right: 0;
   z-index: 999;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 2em 3em;
   transition: background 250ms ease-in;
   background: var(--background);
   color: var(--text);
+}
+
+.pupper {
+  font-size:14px !important;
+  font-family:revert;
 }
 
 /* SVGS */
@@ -779,6 +784,8 @@ object {
 
 .main-title {
   font-size: 3.5em;
+  font-family: Poppins;
+  font-weight: bold;
 }
 
 .flex {
@@ -802,10 +809,148 @@ object {
 
 .appliance {
   margin-bottom: 2.5em;
+  min-height: 210px;
 }
 
 input {
   background: white;
 }
+
+.grid-features {
+  display: flex;
+}
+
+.grid-features_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-wrapper {
+  padding: 3em 0;
+}
+
+.img-flex {
+  margin: 1em;
+}
+
+.mobiles {
+  display: none;
+}
+
+/* Media queries */
+
+
+@media (max-width: 992px) { 
+
+  .appliance {
+   margin-bottom: 2.5em;
+   min-height: unset;
+   padding-bottom: 1em;
+   text-align: center; 
+  }
+
+  header > .main-nav ml-auto {
+    display: none;
+  }
+
+  header > .account {
+    display: none;
+  }
+
+  .mobiles {
+    display: block;
+    font-size:12px;
+  }
+
+  .home-intro {
+    padding:30vh 0;
+  }
+
+  .main-title {
+    font-size:2em;
+    
+  }
+
+  .home-about {
+    padding:0;
+  }
+
+  .footer-grid {
+    border-radius: 0;
+  }
+
+  .flex-column-inverse-mb {
+    flex-direction: column-reverse;
+  }
+
+  .carousel-cell {
+    min-height: 300px;
+    padding:0;
+  }
+
+  .slider {
+    margin:1em 0;
+  }
+
+  .grid-features {
+    text-align: center;
+    display: block;
+  }
+
+  .hide-mb {
+    display: none;
+  }
+
+  .squad-goals {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.2em;
+    line-height: 1.7;
+    padding: 20px;
+  }
+
+  .mb-5 {
+    margin-bottom: 0 !important;
+  }
+
+  .columns {
+    display: block;
+  }
+
+  .col + .col {
+    margin: 0;
+  }
+
+  .col {
+    margin-bottom:0;
+  }
+  .item-grid {
+    border-radius: 0;
+  }
+  .item-grid:hover {
+    position:unset;
+  }
+  .p-5 {
+    padding:0 !important;
+  }
+  .subtitle-mb {
+    font-size:1.5em;
+  }
+
+  .hide-mb {
+    display: none;
+  }
+
+  header {
+    padding: 2em;
+    justify-content: space-between;
+  }
+
+  .mb-only {
+    display: block;
+  }
+
+ }
 </style>
 
