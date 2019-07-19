@@ -294,7 +294,7 @@
             <div class="row">
               <!--Grid column-->
               <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST" netlify>
                   <!--Grid row-->
                   <div class="row">
                     <!--Grid column-->
@@ -361,10 +361,10 @@
               <div class="col-md-3 text-center">
                 <h2 class="my-4">Contacto:</h2>
                 <ul class="list-unstyled mb-0">
-                  <li>
+                  <!-- <li>
                     <i class="fas fa-map-marker-alt fa-2x"></i>
                     <p>Reforma 222, 06500, Ciudad de Mexico</p>
-                  </li>
+                  </li> -->
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
