@@ -85,7 +85,15 @@
           <div class="logo-right hide-mb">
             <img class="w-100" src="../assets/logo-damosoni_transparentepng.png" alt="">
           </div>
+          
         </div>
+
+        <div class="text-center mt-5">
+          <h2>Rastrea tus dispositivos aquí</h2>
+          <a href="http://damosoni.ftrack.me" class="nav__link nav__link--btn nav__link--btn--highlight">Rastreo</a>
+        </div>
+
+        
 
         <flickity
           ref="flickity"
