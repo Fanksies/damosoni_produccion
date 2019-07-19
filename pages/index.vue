@@ -455,10 +455,10 @@ export default {
     return {
       flickityOptions: {
         initialIndex: 3,
-        prevNextButtons: true,
+        prevNextButtons: false,
         pageDots: false,
         wrapAround: true,
-        autoplay:true
+        autoPlay:true
 
         // any options from Flickity can be used
       }
