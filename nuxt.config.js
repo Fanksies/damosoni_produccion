@@ -34,6 +34,13 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  modules: ['bootstrap-vue/nuxt'],
+  plugins: [
+    { src: '~/plugins/VueFlickity.js', ssr: false }
+  ]
+  // plugins: [
+  //   { src: '~/plugins/vue-flickity', ssr: false }
+  // ]
 }
 
