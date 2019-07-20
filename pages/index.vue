@@ -172,7 +172,7 @@
           </div>
           <div class="columns">
             <div class="col fade-in item-grid">
-              <h3>Conectividad con alta disponibilidad.</h3>
+              <h3>Conectividad con alta disponibilidad</h3>
               <p>Háblanos de tu solución.</p>
             </div>
             <div class="col fade-in item-grid">
