@@ -488,6 +488,8 @@ body {
   display: none;
 }
 
+flickity { display: block !important; }
+
 .site-logo {
   font-weight: 900;
   font-size: 0.8rem;
