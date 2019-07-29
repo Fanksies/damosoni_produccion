@@ -16,7 +16,9 @@
     />
 
     <header>
-      <a href="#" class="site-logo" aria-label="homepage">Damosoni</a>
+      <a href="#" class="site-logo" aria-label="homepage">
+        <img src="../assets/logo-damosoni_transparentepng.png" alt="logo" />
+      </a>
 
       <nav class="ml-5 main-nav hide-mb">
         <ul class="nav__list">
@@ -24,7 +26,13 @@
             <a href="/" class="nav__link">Inicio</a>
           </li>
           <li class="nav__list-item">
+            <a href="#about-us" class="nav__link">Nosotros</a>
+          </li>
+          <li class="nav__list-item">
             <a href="#services" class="nav__link">Servicios</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="http://damosoni.ftrack.me" class="nav__link">Localizar</a>
           </li>
           <li class="nav__list-item">
             <a href="#apps" class="nav__link">Aplicaciones</a>
@@ -33,15 +41,22 @@
             <a href="#form" class="nav__link">Contacto</a>
           </li>
         </ul>
-        
       </nav>
       <nav class="ml-auto hide-mb">
         <ul class="list-unstyled mb-0">
           <li class="nav__list-item">
-            <span class="nav__link pupper"> <i class="fas fa-envelope"></i> contacto@damosoni.com</span>
+            <span class="nav__link pupper">
+              <i class="fas fa-envelope"></i> contacto
+            </span>
           </li>
           <li class="nav__list-item">
-            <span class="nav__link pupper"><i class="fas fa-phone fa-flip-horizontal"></i> 55 5502 3555</span>
+            <a
+              href="https://api.whatsapp.com/send?phone=5215510265904&text=hola%2C%20qu%C3%A9%20tal%3F"
+            >
+              <span class="nav__link pupper">
+                <i class="fas fa-phone fa-flip-horizontal"></i> 55 5502 3555
+              </span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -60,10 +75,11 @@
             </a>
           </li>
         </ul>
-      </nav> -->
+      </nav>-->
       <nav class="mobiles">
-        <a class="d-block nav__link"  href="https://wa.me/+525560301247?text=Hola Damosoni!"> <i class="fab fa-whatsapp"></i> Contacto</a>
-
+        <a class="d-block nav__link" href="https://wa.me/+525560301247?text=Hola Damosoni!">
+          <i class="fab fa-whatsapp"></i> Contacto
+        </a>
       </nav>
     </header>
 
@@ -71,29 +87,25 @@
       <section class="home-intro">
         <h1 class="main-title">Damosoni Comunicaciones</h1>
         <h2 class="text-lighter subtitle-mb">Descubre lo que M2M &amp; IoT hacen por ti</h2>
+        <div id="about-us"></div>
       </section>
 
       <div class="home-about">
-        <div class="flex footer-grid flex-column-inverse-mb">
+        <div class="flex footer-grid flex-column-inverse-mb text-center">
           <div>
-            <h2>Somos Damosoni</h2>
-            <p>Nuestra calidad de servicio, alta disponibilidad y bajos costos nos hacen únicos.</p>
-            <p>Disfruta de nuestra plataforma de administración en línea, sin costo adicional.</p>
-            <strong>Todo esto y más, disponible 24/7 desde tu computadora o tu celular.</strong>
-            <img class="mb-only w-100" src="../assets/logo-damosoni_transparentepng.png" alt="">
-          </div>
-          <div class="logo-right hide-mb">
-            <img class="w-100" src="../assets/logo-damosoni_transparentepng.png" alt="">
-          </div>
-          
-        </div>
+            <img
+              class="w-100"
+              src="../assets/logo-damosoni_transparentepng.png"
+              alt
+              style="max-width:350px;"
+            />
 
-        <div class="text-center mt-5">
-          <h2>Rastrea tus dispositivos aquí</h2>
-          <a href="http://damosoni.ftrack.me" class="nav__link nav__link--btn nav__link--btn--highlight">Rastreo</a>
+            <p class="lead">
+              Nuestra calidad de servicio, alta disponibilidad y bajos costos nos hacen únicos.
+              <br />Disfruta de nuestra plataforma de administración en línea, sin costo adicional.
+            </p>
+          </div>
         </div>
-
-        
 
         <flickity
           ref="flickity"
@@ -113,18 +125,15 @@
           </div>
           <div class="carousel-cell">
             <i class="fas fa-project-diagram fa-4x"></i>
-            <h3 class="d-block my-2">Infraestructura.</h3>Puesta a disposición tanto de usuarios finales como de compañías que deseen extender su soluciones tecnológicas.
+            <h3 class="d-block my-2">Infraestructura.</h3>Puesta a disposición tanto de usuarios finales como de compañías que deseen extender su portafolios de negocio.
           </div>
         </flickity>
         <div id="services"></div>
-
-
       </div>
 
       <div class="home-more-stuff">
         <div class="gray-bg">
           <div class="text-wrapper">
-
             <div class="grid-features container">
               <div class="image-grid slide-in from-left">
                 <img src="../assets/location.svg" class="img-flex slide-in from-left" width="200" />
@@ -138,13 +147,12 @@
                   autosuficientes en todo el mundo.
                 </p>
               </div>
-
             </div>
 
             <div class="grid-features container">
               <div class="grid-features_text">
                 <p class="slide-in from-right">
-                  Los servicios de conectividad M2M están diseñados para resolver necesidades de conexión entre
+                  Los servicios de conectividad Machine to Machine (M2M) están diseñados para resolver necesidades de conexión entre
                   maquinas,
                   con acuerdos y términos sencillos y precios sin cargos ocultos. Planes de datos personalizados para uso en
                   México y con la posibilidad de obtener itinerancia en todo el mundo.
@@ -157,7 +165,11 @@
 
             <div class="grid-features container">
               <div class="image-grid slide-in from-left">
-                <img src="../assets/sim.svg" class="img-flex slide-in from-left hide-mb" width="200" />
+                <img
+                  src="../assets/sim.svg"
+                  class="img-flex slide-in from-left hide-mb"
+                  width="200"
+                />
               </div>
               <div class="grid-features_text">
                 <p class="slide-in from-right">
@@ -165,12 +177,10 @@
                   la información emitida y recibida desde las máquinas, habilita su integración en los procesos empresariales.
                 </p>
               </div>
-          <div id="apps"></div> 
-
             </div>
           </div>
         </div>
-        <div class="home-about" >
+        <div class="home-about">
           <div class="mb-5">
             <h2 class="squad-goals">
               El objetivo final de los servicios y soluciones que ofrece DAMOSONI
@@ -185,58 +195,60 @@
             </div>
             <div class="col fade-in item-grid">
               <h3>Integración con dispositivos</h3>
-              <p>
-                Ya sea que su organización necesite integrar un sensor, GPS, dispositivos de vigilancia o transmitir video
-                desde la cabina de un vehículo. Nuestra plataforma es de fácil integración.
-              </p>
+              <p>GPS, Streaming, Circuito Cerrado, etc.</p>
             </div>
             <div class="col fade-in item-grid">
               <h3>Plataforma de administración</h3>
               <p>
-                Activa, suspende, localiza, genera reportes
+                Activa, suspende, genera reportes
                 y configura alertas.
               </p>
             </div>
           </div>
 
+          <div class="text-center col fade-in item-grid appear">
+            <h2>Rastrea tus dispositivos aquí</h2>
+            <a
+              href="http://damosoni.ftrack.me"
+              class="nav__link nav__link--btn nav__link--btn--highlight"
+            >Rastreo</a>
+          </div>
+
           <div class="columns">
             <div class="col fade-in item-grid">
               <h3>Autogestión de Flotas</h3>
-              <p>Es posible conocer y monitorizar el estado del vehículo o de su carga con base en Telemetría.</p>
+              <p>Es posible conocer y monitorizar el estado del vehículo o de su carga (Telemetría)</p>
             </div>
 
             <div class="col fade-in item-grid">
               <h3>Geocercas</h3>
               <p>
                 Sabemos que esta herramienta le dará una capacidad superior en el diseño de geocercas, incluyendo la
-                capacidad de dibujarlas con formas irregulares.
+                capacidad de dibujarlas con geocercas.
               </p>
             </div>
             <div class="col fade-in item-grid">
               <h3>Vending Machines / TPV</h3>
               <p>
-                Controla y visualiza la actividad en tiempo real. Permite gestionar y optimizar la reposición de mercancía
-                con base al consumo. Además, permite
-                telecontrolar diversos ajustes de las máquinas expendedoras.
+                Controla y visualiza la actividad en tiempo real.
               </p>
             </div>
           </div>
+        <div id="apps"></div>
+
         </div>
+
         <div class="admin-platform text-center">
           <div class="container fade-in">
-            <h2>Un precio, una solución y todo incluido.</h2>
-            <h2>Obtén el mejor equipo, al mejor precio.</h2>
-            <h2>Información segura y accesible, siempre.</h2>
+            <h2 class="h1-responsive font-weight-bold text-center">Aplicaciones</h2>
+            <iframe class="my-5" style="width:100%" height="500" src="https://www.youtube.com/embed/FrcmgTs7buY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         <div class="home-about">
           <div class="bg-white p-5 rounded shadow-sm">
             <div class="squad-goals fade-in mb-5">
-              <h2>
-                Un precio, una solución,
-                <span>todo incluido.</span>
-              </h2>
-              <p>Entre otras soluciones de IOT para facilitar tu futuro encontrarás:</p>
+              
+              <h2>Entre otras soluciones de IoT para facilitar tu futuro encontrarás:</h2>
             </div>
             <div class="columns">
               <div class="col fade-in from-left">
@@ -274,20 +286,13 @@
                 </div>
               </div>
             </div>
+        <div id="form"></div>
+
           </div>
         </div>
         <!-- Hardware section -->
-        <div class="last-CTA text-center">
-          <h3>
-            <span class="brand-text">DAMOSONI COMUNICACIONES</span> le permite enfocarse a sus clientes.
-          </h3>
-          <h4>
-            Despreocúpese
-            de la conectividad y administración
-            de sus dispositivos.
-          </h4>
-          <div id="form"></div> 
-        </div>
+       
+
         <div class="home-about text-center">
           <!--Section: Contact v.2-->
           <section class="mb-4 col footer-grid">
@@ -302,7 +307,7 @@
             <div class="row">
               <!--Grid column-->
               <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST" >
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                   <!--Grid row-->
                   <div class="row">
                     <!--Grid column-->
@@ -372,7 +377,7 @@
                   <!-- <li>
                     <i class="fas fa-map-marker-alt fa-2x"></i>
                     <p>Reforma 222, 06500, Ciudad de Mexico</p>
-                  </li> -->
+                  </li>-->
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
@@ -466,7 +471,8 @@ export default {
         prevNextButtons: false,
         pageDots: false,
         wrapAround: true,
-        autoPlay:true
+        autoPlay: 5000,
+        pauseAutoPlayOnHover: false
 
         // any options from Flickity can be used
       }
@@ -488,13 +494,20 @@ body {
   display: none;
 }
 
-flickity { display: block !important; }
+flickity {
+  display: block !important;
+}
 
 .site-logo {
   font-weight: 900;
   font-size: 0.8rem;
   color: var(--text);
   text-decoration: none;
+}
+
+.site-logo img {
+  width: 100%;
+  max-width: 110px;
 }
 
 h1,
@@ -574,8 +587,8 @@ header {
 }
 
 .pupper {
-  font-size:14px !important;
-  font-family:revert;
+  font-size: 14px !important;
+  font-family: revert;
 }
 
 /* SVGS */
@@ -850,14 +863,12 @@ input {
 
 /* Media queries */
 
-
-@media (max-width: 992px) { 
-
+@media (max-width: 992px) {
   .appliance {
-   margin-bottom: 2.5em;
-   min-height: unset;
-   padding-bottom: 1em;
-   text-align: center; 
+    margin-bottom: 2.5em;
+    min-height: unset;
+    padding-bottom: 1em;
+    text-align: center;
   }
 
   header > .main-nav ml-auto {
@@ -870,20 +881,19 @@ input {
 
   .mobiles {
     display: block;
-    font-size:12px;
+    font-size: 12px;
   }
 
   .home-intro {
-    padding:30vh 0;
+    padding: 30vh 0;
   }
 
   .main-title {
-    font-size:2em;
-    
+    font-size: 2em;
   }
 
   .home-about {
-    padding:0;
+    padding: 0;
   }
 
   .footer-grid {
@@ -896,11 +906,11 @@ input {
 
   .carousel-cell {
     min-height: 300px;
-    padding:0;
+    padding: 0;
   }
 
   .slider {
-    margin:1em 0;
+    margin: 1em 0;
   }
 
   .grid-features {
@@ -933,19 +943,19 @@ input {
   }
 
   .col {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
   .item-grid {
     border-radius: 0;
   }
   .item-grid:hover {
-    position:unset;
+    position: unset;
   }
   .p-5 {
-    padding:0 !important;
+    padding: 0 !important;
   }
   .subtitle-mb {
-    font-size:1.5em;
+    font-size: 1.5em;
   }
 
   .hide-mb {
@@ -960,7 +970,6 @@ input {
   .mb-only {
     display: block;
   }
-
- }
+}
 </style>
 
