@@ -77,7 +77,7 @@
         </ul>
       </nav>-->
       <nav class="mobiles">
-        <a class="d-block nav__link" href="https://wa.me/+525560301247?text=Hola Damosoni!">
+        <a class="d-block nav__link" href="https://api.whatsapp.com/send?phone=5215510265904&text=hola%2C%20qu%C3%A9%20tal%3F">
           <i class="fab fa-whatsapp"></i> Contacto
         </a>
       </nav>
