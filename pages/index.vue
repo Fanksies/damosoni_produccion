@@ -317,7 +317,6 @@
                   action="/success"
                   name="contact-form"
                   method="POST"
-                  data-netlify="true"
                 >
                   <!--Grid row-->
                   <div class="row">
