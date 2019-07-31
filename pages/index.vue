@@ -77,7 +77,10 @@
         </ul>
       </nav>-->
       <nav class="mobiles">
-        <a class="d-block nav__link" href="https://api.whatsapp.com/send?phone=5215510265904&text=hola%2C%20qu%C3%A9%20tal%3F">
+        <a
+          class="d-block nav__link"
+          href="https://api.whatsapp.com/send?phone=5215510265904&text=hola%2C%20qu%C3%A9%20tal%3F"
+        >
           <i class="fab fa-whatsapp"></i> Contacto
         </a>
       </nav>
@@ -229,25 +232,29 @@
             </div>
             <div class="col fade-in item-grid">
               <h3>Vending Machines / TPV</h3>
-              <p>
-                Controla y visualiza la actividad en tiempo real.
-              </p>
+              <p>Controla y visualiza la actividad en tiempo real.</p>
             </div>
           </div>
-        <div id="apps"></div>
-
+          <div id="apps"></div>
         </div>
 
         <div class="admin-platform text-center">
           <div class="container fade-in">
             <h2 class="h1-responsive font-weight-bold text-center">Aplicaciones</h2>
-            <iframe class="my-5" style="width:100%" height="500" src="https://www.youtube.com/embed/FrcmgTs7buY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              class="my-5"
+              style="width:100%"
+              height="500"
+              src="https://www.youtube.com/embed/FrcmgTs7buY"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
         <div class="home-about">
           <div class="bg-white p-5 rounded shadow-sm">
             <div class="squad-goals fade-in mb-5">
-              
               <h2>Entre otras soluciones de IoT para facilitar tu futuro encontrarás:</h2>
             </div>
             <div class="columns">
@@ -286,12 +293,10 @@
                 </div>
               </div>
             </div>
-        <div id="form"></div>
-
+            <div id="form"></div>
           </div>
         </div>
         <!-- Hardware section -->
-       
 
         <div class="home-about text-center">
           <!--Section: Contact v.2-->
@@ -307,7 +312,13 @@
             <div class="row">
               <!--Grid column-->
               <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                <form
+                  id="contact-form"
+                  action="/success"
+                  name="contact-form"
+                  method="POST"
+                  data-netlify="true"
+                >
                   <!--Grid row-->
                   <div class="row">
                     <!--Grid column-->
@@ -358,14 +369,11 @@
                     </div>
                   </div>
                   <!--Grid row-->
+                  <div class="text-center text-md-left">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>
                 </form>
 
-                <div class="text-center text-md-left">
-                  <a
-                    class="btn btn-primary"
-                    onclick="document.getElementById('contact-form').submit();"
-                  >Enviar</a>
-                </div>
                 <div class="status"></div>
               </div>
               <!--Grid column-->
@@ -859,6 +867,14 @@ input {
 
 .mobiles {
   display: none;
+}
+
+.md-form label {
+  top: -30px !important;
+}
+
+.md-form .form-control {
+  border: 0 !important;
 }
 
 /* Media queries */
