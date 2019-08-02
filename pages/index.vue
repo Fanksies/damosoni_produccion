@@ -37,24 +37,24 @@
           <li class="nav__list-item">
             <a href="#apps" class="nav__link">Aplicaciones</a>
           </li>
-          <li class="nav__list-item">
-            <a href="#form" class="nav__link">Contacto</a>
-          </li>
+         
         </ul>
       </nav>
       <nav class="ml-auto hide-mb">
-        <ul class="list-unstyled mb-0">
-          <li class="nav__list-item">
+        <ul class="list-unstyled mb-0 d-flex">
+          <li class="">
+            <a href="mailto:contacto@damosoni.com" class="nav__list-item nav__link nav__link--btn nav-sm">
             <span class="nav__link pupper">
               <i class="fas fa-envelope"></i> contacto
             </span>
+            </a>
           </li>
-          <li class="nav__list-item">
-            <a
+          <li class="">
+            <a class="nav__list-item nav__link nav__link--btn nav__link--btn--highlight nav-sm"
               href="https://api.whatsapp.com/send?phone=5215510265904&text=hola%2C%20qu%C3%A9%20tal%3F"
             >
               <span class="nav__link pupper">
-                <i class="fas fa-phone fa-flip-horizontal"></i> 55 5502 3555
+                <i class="fab fa-whatsapp"></i> 5510265904
               </span>
             </a>
           </li>
@@ -388,7 +388,7 @@
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 55 5502 3555</p>
+                    <p>55 1026 5904</p>
                   </li>
 
                   <li>
@@ -618,9 +618,9 @@ object {
   display: inline-block;
   padding: calc(var(--spacing) / 2) var(--spacing);
   position: relative;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.9rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 1rem;
 }
 
 .nav__link:after {
@@ -874,6 +874,10 @@ input {
 
 .md-form .form-control {
   border: 0 !important;
+}
+
+.nav-sm {
+  padding: 5px 10px;
 }
 
 /* Media queries */
