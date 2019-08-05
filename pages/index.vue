@@ -51,10 +51,10 @@
           </li>
           <li class="">
             <a class="nav__list-item nav__link nav__link--btn nav__link--btn--highlight nav-sm"
-              href="https://api.whatsapp.com/send?phone=5215510265904&text=hola%2C%20qu%C3%A9%20tal%3F"
+              href="https://api.whatsapp.com/send?phone=5215555023555&text=hola%2C%20qu%C3%A9%20tal%3F"
             >
               <span class="nav__link pupper">
-                <i class="fab fa-whatsapp"></i> 5510265904
+                <i class="fab fa-whatsapp"></i> 5555023555
               </span>
             </a>
           </li>
@@ -79,7 +79,7 @@
       <nav class="mobiles">
         <a
           class="d-block nav__link"
-          href="https://api.whatsapp.com/send?phone=5215510265904&text=hola%2C%20qu%C3%A9%20tal%3F"
+          href="https://api.whatsapp.com/send?phone=5215555023555&text=hola%2C%20qu%C3%A9%20tal%3F"
         >
           <i class="fab fa-whatsapp"></i> Contacto
         </a>
@@ -388,7 +388,7 @@
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>55 1026 5904</p>
+                    <p>55 5502 3555</p>
                   </li>
 
                   <li>
