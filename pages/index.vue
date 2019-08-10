@@ -37,24 +37,27 @@
           <li class="nav__list-item">
             <a href="#apps" class="nav__link">Aplicaciones</a>
           </li>
-         
         </ul>
       </nav>
       <nav class="ml-auto hide-mb">
         <ul class="list-unstyled mb-0 d-flex">
-          <li class="">
-            <a href="mailto:contacto@damosoni.com" class="nav__list-item nav__link nav__link--btn nav-sm">
-            <span class="nav__link pupper">
-              <i class="fas fa-envelope"></i> contacto
-            </span>
-            </a>
-          </li>
-          <li class="">
-            <a class="nav__list-item nav__link nav__link--btn nav__link--btn--highlight nav-sm"
-              href="https://api.whatsapp.com/send?phone=5215555023555&text=hola%2C%20qu%C3%A9%20tal%3F"
+          <li class>
+            <a
+              href="mailto:contacto@damosoni.com"
+              class="nav__list-item nav__link nav__link--btn nav-sm"
             >
               <span class="nav__link pupper">
-                <i class="fab fa-whatsapp"></i> 5555023555
+                <i class="fas fa-envelope"></i> contacto
+              </span>
+            </a>
+          </li>
+          <li class>
+            <a
+              class="nav__list-item nav__link nav__link--btn nav__link--btn--highlight nav-sm"
+              href="https://api.whatsapp.com/send?phone=5215525469799&text=hola%2C%20qu%C3%A9%20tal%3F"
+            >
+              <span class="nav__link pupper">
+                <i class="fab fa-whatsapp"></i> 5525469799
               </span>
             </a>
           </li>
@@ -79,7 +82,7 @@
       <nav class="mobiles">
         <a
           class="d-block nav__link"
-          href="https://api.whatsapp.com/send?phone=5215555023555&text=hola%2C%20qu%C3%A9%20tal%3F"
+          href="https://api.whatsapp.com/send?phone=5215525469799&text=hola%2C%20qu%C3%A9%20tal%3F"
         >
           <i class="fab fa-whatsapp"></i> Contacto
         </a>
@@ -192,15 +195,18 @@
             </h2>
           </div>
           <div class="columns">
-            <div class="col fade-in item-grid">
+            <div class="col fade-in item-grid center-lg">
+              <i class="fas fa-wifi fa-2x fontawesome-icon circle-yes"></i>
               <h3>Conectividad con alta disponibilidad</h3>
               <p>Háblanos de tu solución.</p>
             </div>
-            <div class="col fade-in item-grid">
+            <div class="col fade-in item-grid center-lg ">
+              <i class="fas fa-server fa-2x fontawesome-icon circle-yes"></i>
               <h3>Integración con dispositivos</h3>
               <p>GPS, Streaming, Circuito Cerrado, etc.</p>
             </div>
-            <div class="col fade-in item-grid">
+            <div class="col fade-in item-grid center-lg">
+              <i class="fas fa-users-cog fa-2x fontawesome-icon circle-yes"></i>
               <h3>Plataforma de administración</h3>
               <p>
                 Activa, suspende, genera reportes
@@ -218,19 +224,22 @@
           </div>
 
           <div class="columns">
-            <div class="col fade-in item-grid">
+            <div class="col fade-in item-grid center-lg">
+              <i class="fas fa-truck fa-2x fontawesome-icon circle-yes"></i>
               <h3>Autogestión de Flotas</h3>
               <p>Es posible conocer y monitorizar el estado del vehículo o de su carga (Telemetría)</p>
             </div>
 
-            <div class="col fade-in item-grid">
+            <div class="col fade-in item-grid center-lg">
+              <i class="fab fa-laravel fa-2x fontawesome-icon circle-yes"></i>
               <h3>Geocercas</h3>
               <p>
                 Sabemos que esta herramienta le dará una capacidad superior en el diseño de geocercas, incluyendo la
                 capacidad de dibujarlas con geocercas.
               </p>
             </div>
-            <div class="col fade-in item-grid">
+            <div class="col fade-in item-grid center-lg">
+              <i class="fas fa-money-check-alt fa-2x fontawesome-icon circle-yes"></i>
               <h3>Vending Machines / TPV</h3>
               <p>Controla y visualiza la actividad en tiempo real.</p>
             </div>
@@ -312,12 +321,7 @@
             <div class="row">
               <!--Grid column-->
               <div class="col-md-9 mb-md-0 mb-5">
-                <form
-                  id="contact-form"
-                  action="/success"
-                  name="contact-form"
-                  method="POST"
-                >
+                <form id="contact-form" action="/success" name="contact-form" method="POST">
                   <!--Grid row-->
                   <div class="row">
                     <!--Grid column-->
@@ -388,7 +392,7 @@
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>55 5502 3555</p>
+                    <p>55 2546 9799</p>
                   </li>
 
                   <li>
@@ -558,8 +562,9 @@ h5 {
 }
 
 .item-grid:hover {
+  transition: all 360ms;
   position: relative;
-  top: -5px;
+  transform: translateY(-5px);
   box-shadow: 1px 1px 5px #f1f1f1;
 }
 
@@ -879,6 +884,40 @@ input {
 .nav-sm {
   padding: 5px 10px;
 }
+
+.shalom {
+  border-color: transparent;
+  background-color: #3498db;
+  font-size: 28.16px;
+  line-height: 56.32px;
+  height: 56.32px;
+  width: 56.32px;
+  margin-right: 16px;
+  color: #ffffff;
+}
+
+.fontawesome-icon {
+  display: inline-block;
+}
+
+.fontawesome-icon.circle-yes {
+  border-radius: 50%;
+  background-clip: inherit;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: .5em 0;
+  padding: 15px;
+  border: 0;
+}
+
+.center-lg {
+  text-align:center;
+}
+
+
 
 /* Media queries */
 
