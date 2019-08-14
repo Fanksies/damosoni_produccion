@@ -17,7 +17,7 @@
 
     <header>
       <a href="#" class="site-logo" aria-label="homepage">
-        <img src="../assets/damosoni-icono-color.png" alt="logo" />
+        <img src="../assets/damosoni-icono-color-removebg-preview.png" alt="logo" />
       </a>
 
       <nav class="ml-5 main-nav hide-mb">
@@ -515,7 +515,7 @@ flickity {
 
 .site-logo img {
   width: 100%;
-  max-width: 110px;
+  max-width: 50px;
 }
 
 h1,
