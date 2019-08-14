@@ -51,7 +51,7 @@
           <li class>
             <a
               class="nav__list-item nav__link nav__link--btn nav__link--btn--highlight nav-sm"
-              href="https://api.whatsapp.com/send?phone=5582335657&text=hola%2C%20qu%C3%A9%20tal%3F"
+              href="https://api.whatsapp.com/send?phone=5215582335657&text=hola%2C%20qu%C3%A9%20tal%3F"
             >
               <span class="nav__link pupper">
                 <i class="fab fa-whatsapp"></i> 5582335657
@@ -79,7 +79,7 @@
       <nav class="mobiles">
         <a
           class="d-block nav__link"
-          href="https://api.whatsapp.com/send?phone=5582335657&text=hola%2C%20qu%C3%A9%20tal%3F"
+          href="https://api.whatsapp.com/send?phone=5215582335657&text=hola%2C%20qu%C3%A9%20tal%3F"
         >
           <i class="fab fa-whatsapp"></i> Contacto
         </a>
