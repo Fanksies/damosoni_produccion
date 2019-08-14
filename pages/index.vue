@@ -51,10 +51,10 @@
           <li class>
             <a
               class="nav__list-item nav__link nav__link--btn nav__link--btn--highlight nav-sm"
-              href="https://api.whatsapp.com/send?phone=5571274651&text=hola%2C%20qu%C3%A9%20tal%3F"
+              href="https://api.whatsapp.com/send?phone=5582335657&text=hola%2C%20qu%C3%A9%20tal%3F"
             >
               <span class="nav__link pupper">
-                <i class="fab fa-whatsapp"></i> 5571274651
+                <i class="fab fa-whatsapp"></i> 5582335657
               </span>
             </a>
           </li>
@@ -79,7 +79,7 @@
       <nav class="mobiles">
         <a
           class="d-block nav__link"
-          href="https://api.whatsapp.com/send?phone=5571274651&text=hola%2C%20qu%C3%A9%20tal%3F"
+          href="https://api.whatsapp.com/send?phone=5582335657&text=hola%2C%20qu%C3%A9%20tal%3F"
         >
           <i class="fab fa-whatsapp"></i> Contacto
         </a>
@@ -389,7 +389,7 @@
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>55 7127 4651</p>
+                    <p>55 8651 8030</p>
                   </li>
 
                   <li>
