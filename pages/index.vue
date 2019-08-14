@@ -17,7 +17,7 @@
 
     <header>
       <a href="#" class="site-logo" aria-label="homepage">
-        <img src="../assets/logo-damosoni_transparentepng.png" alt="logo" />
+        <img src="../assets/damosoni-icono-color.png" alt="logo" />
       </a>
 
       <nav class="ml-5 main-nav hide-mb">
@@ -30,9 +30,6 @@
           </li>
           <li class="nav__list-item">
             <a href="#services" class="nav__link">Servicios</a>
-          </li>
-          <li class="nav__list-item">
-            <a href="http://damosoni.ftrack.me" class="nav__link">Localizar</a>
           </li>
           <li class="nav__list-item">
             <a href="#apps" class="nav__link">Aplicaciones</a>
@@ -54,10 +51,10 @@
           <li class>
             <a
               class="nav__list-item nav__link nav__link--btn nav__link--btn--highlight nav-sm"
-              href="https://api.whatsapp.com/send?phone=5215525469799&text=hola%2C%20qu%C3%A9%20tal%3F"
+              href="https://api.whatsapp.com/send?phone=5571274651&text=hola%2C%20qu%C3%A9%20tal%3F"
             >
               <span class="nav__link pupper">
-                <i class="fab fa-whatsapp"></i> 5525469799
+                <i class="fab fa-whatsapp"></i> 5571274651
               </span>
             </a>
           </li>
@@ -82,7 +79,7 @@
       <nav class="mobiles">
         <a
           class="d-block nav__link"
-          href="https://api.whatsapp.com/send?phone=5215525469799&text=hola%2C%20qu%C3%A9%20tal%3F"
+          href="https://api.whatsapp.com/send?phone=5571274651&text=hola%2C%20qu%C3%A9%20tal%3F"
         >
           <i class="fab fa-whatsapp"></i> Contacto
         </a>
@@ -218,7 +215,7 @@
           <div class="text-center col fade-in item-grid appear">
             <h2>Rastrea tus dispositivos aquí</h2>
             <a
-              href="http://damosoni.ftrack.me"
+              target="_blank" href="http://damosoni.ftrack.me"
               class="nav__link nav__link--btn nav__link--btn--highlight"
             >Rastreo</a>
           </div>
@@ -392,7 +389,7 @@
 
                   <li>
                     <i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>55 2546 9799</p>
+                    <p>55 7127 4651</p>
                   </li>
 
                   <li>
