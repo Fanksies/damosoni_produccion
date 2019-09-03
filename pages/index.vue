@@ -318,7 +318,7 @@
             <div class="row">
               <!--Grid column-->
               <div class="col-md-9 mb-md-0 mb-5">
-                <form id="contact-form" action="/success" name="contact-form" method="POST">
+                <form name="contact" method="POST" data-netlify="true">
                   <!--Grid row-->
                   <div class="row">
                     <!--Grid column-->
