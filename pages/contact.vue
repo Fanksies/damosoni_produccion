@@ -4,8 +4,11 @@
       Contact
     </h1>
     <div class="content">
-      <form name="contact" action="" method="post" netlify>
+      <form name="contact" action="/success" method="post" netlify netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact" />
+        <p class="hidden">     
+            <label>Don’t fill this out: <input name="bot-field"></label>   
+        </p>
         <label class="form-label" for="name">
           Name:
         </label>
@@ -23,3 +26,9 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.hidden {
+  display: none;
+}
+</style>
