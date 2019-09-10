@@ -623,6 +623,7 @@ object {
   text-transform: capitalize;
   letter-spacing: 1px;
   font-size: 1rem;
+  font-family:inherit;
 }
 
 .nav__link:after {
