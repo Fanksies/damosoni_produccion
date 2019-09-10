@@ -197,7 +197,7 @@
               <h3>Conectividad con alta disponibilidad</h3>
               <p>Háblanos de tu solución.</p>
             </div>
-            <div class="col fade-in item-grid center-lg ">
+            <div class="col fade-in item-grid center-lg">
               <i class="fas fa-server fa-2x fontawesome-icon circle-yes"></i>
               <h3>Integración con dispositivos</h3>
               <p>GPS, Streaming, Circuito Cerrado, etc.</p>
@@ -215,7 +215,8 @@
           <div class="text-center col fade-in item-grid appear">
             <h2>Rastrea tus dispositivos aquí</h2>
             <a
-              target="_blank" href="http://damosoni.ftrack.me"
+              target="_blank"
+              href="http://damosoni.ftrack.me"
               class="nav__link nav__link--btn nav__link--btn--highlight"
             >Rastreo</a>
           </div>
@@ -318,8 +319,21 @@
             <div class="row">
               <!--Grid column-->
               <div class="col-md-9 mb-md-0 mb-5">
-                <form name="contact" method="POST" data-netlify="true">
+                <form
+                  name="contact"
+                  action="/exito/"
+                  method="post"
+                  netlify
+                  netlify-honeypot="bot-field"
+                >
                   <!--Grid row-->
+                  <input type="hidden" name="form-name" value="contact" />
+                  <p class="hidden">
+                    <label>
+                      Don’t fill this out:
+                      <input name="bot-field" />
+                    </label>
+                  </p>
                   <div class="row">
                     <!--Grid column-->
                     <div class="col-md-6">
@@ -506,6 +520,10 @@ flickity {
   display: block !important;
 }
 
+.hidden {
+  display: none;
+}
+
 .site-logo {
   font-weight: 900;
   font-size: 0.8rem;
@@ -623,7 +641,7 @@ object {
   text-transform: capitalize;
   letter-spacing: 1px;
   font-size: 1rem;
-  font-family:inherit;
+  font-family: inherit;
 }
 
 .nav__link:after {
@@ -906,16 +924,14 @@ input {
   background-color: #333;
   color: #fff;
   text-align: center;
-  margin: .5em 0;
+  margin: 0.5em 0;
   padding: 15px;
   border: 0;
 }
 
 .center-lg {
-  text-align:center;
+  text-align: center;
 }
-
-
 
 /* Media queries */
 
