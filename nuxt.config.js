@@ -22,7 +22,7 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
 
-  mode: 'universal',
+  mode: 'spa',
   plugins: [
     { src: '~/plugins/VueFlickity.js', ssr:false }
   ],
