@@ -30,15 +30,7 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    postcss: {
-      plugins: [
-        purgecss({
-          content: ['./pages/**/*.vue', './layouts/**/*.vue', './components/**/*.vue', './content/**/*.md', './content/**/*.json'],
-          whitelist: ['html', 'body', 'has-navbar-fixed-top', 'nuxt-link-exact-active', 'nuxt-progress'],
-          whitelistPatternsChildren: [/svg-inline--fa/, /__layout/, /__nuxt/],
-        })
-      ]
-    },
+    
     extend(config, {isDev, isClient}) {
       // adding the new loader as the first in the list
       config.module.rules.unshift({
