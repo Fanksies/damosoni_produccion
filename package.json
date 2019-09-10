@@ -21,10 +21,14 @@
     "vue-flickity": "^1.1.2"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.2.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.1",
-    "eslint-plugin-vue": "^4.0.0"
+    "eslint-plugin-vue": "^4.0.0",
+    "image-webpack-loader": "^6.0.0",
+    "responsive-loader": "^1.2.0",
+    "sharp": "^0.23.0"
   }
 }
