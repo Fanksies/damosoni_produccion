@@ -23,6 +23,9 @@ module.exports = {
   loading: { color: '#3B8070' },
 
   mode: 'universal',
+  plugins: [
+    { src: '~/plugins/VueFlickity.js', ssr:false }
+  ],
   /*
   ** Build configuration
   */
@@ -39,12 +42,11 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
+    vendor: ['VueFlickity']
   },
   modules: ['bootstrap-vue/nuxt'],
-  plugins: [
-    { src: '~/plugins/VueFlickity.js' }
-  ]
+  
   // plugins: [
   //   { src: '~/plugins/vue-flickity', ssr: false }
   // ]
